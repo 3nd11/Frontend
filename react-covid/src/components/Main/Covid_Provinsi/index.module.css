@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    padding: 1rem;
+}
+.tables {
+    font-size: 0.8rem;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th,td {
+    padding: 0.2rem 0.2rem;
+    border: 1px solid;
+}
+
+@media (min-width:768px) {
+    .container {
+        padding: 1.5rem 5rem;
+    }
+    .tables {
+        font-size: 1.3rem;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        padding: 1.5rem 10rem;
+    }
+    .tables {
+        font-size: 1.3rem;
+    }
+}

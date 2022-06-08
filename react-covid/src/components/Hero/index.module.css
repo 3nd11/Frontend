@@ -1,0 +1,46 @@
+.container {
+    padding: 1rem;
+}
+
+.hero {
+    margin: 0 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero__left {
+    margin: 0 1rem;
+}
+.hero__right {
+    margin: 0 1rem;
+}
+.hero__img {
+    max-width: 100%;
+}
+
+.button {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.button__style {
+    border: none;
+    border-radius: 20px;
+    background-color: #06D6A0;
+    padding: 10px 40px;
+}
+
+@media (min-width:768px) {
+    .hero {
+        flex-direction: row;
+    }
+    .button {
+        text-align: left;
+    }
+}
+
+@media (min-width:992px) {
+    .hero {
+        margin: 0 5rem;
+    }
+}

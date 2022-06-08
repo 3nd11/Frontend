@@ -1,0 +1,21 @@
+.covid {
+    width: 100%;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    background-color: gray;
+    
+}
+
+
+@media (min-width:768px) {
+    .covid {
+        padding: 1rem;
+    }
+}
+
+@media (min-width:768px) {
+    .covid {
+        padding: 2rem;
+    }
+}
